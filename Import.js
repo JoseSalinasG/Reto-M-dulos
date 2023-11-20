@@ -7,7 +7,7 @@ const correoNuevo = 'nuevo@dominio.com';
 
 const validador = new ValidacionDeEmail();
 // Impresión del código
-console.log(`El correo ${correoValido} es ${validador.validar(correoValido) ? 'válido' : 'inválido'}.`);
-console.log(`El correo ${correoInvalido} es ${validador.validar(correoInvalido) ? 'válido' : 'no válido'}.`);
-console.log(`El correo ${correoNuevo} es ${validador.validar(correoNuevo) ? 'válido' : 'inválido'}.`);
+console.log(`El correo ${correoValido} es ${validador.validar(correoValido) ? 'válido' : 'NO válido'}.`);
+console.log(`El correo ${correoInvalido} es ${validador.validar(correoInvalido) ? 'válido' : 'NO válido'}.`);
+console.log(`El correo ${correoNuevo} es ${validador.validar(correoNuevo) ? 'válido' : 'NO válido'}.`);
 
